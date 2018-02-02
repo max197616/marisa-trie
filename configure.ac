@@ -4,6 +4,7 @@
 AC_PREREQ([2.67])
 AC_INIT([marisa], [0.2.5], [susumu.yata@gmail.com])
 AC_CONFIG_SRCDIR([include/marisa.h])
+AC_CONFIG_AUX_DIR([.])
 AM_INIT_AUTOMAKE([foreign])
 
 # Checks for programs.
